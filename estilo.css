@@ -129,16 +129,17 @@ footer {
     border-radius: 30px;
     text-align: center;
     margin-bottom: 80px;
+}
 
-    p {
-        color: white;
-        font-size: 20px;
-        margin-top: -5px;
-    }
-    .p2{
-        color:rgb(0, 0, 0);
-        font-size: 30px;
-    }
+.grid-container p {
+    color: white;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.grid-container .p2{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
 }
 
 
@@ -152,32 +153,28 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 15px;
-    
-
-    legend {
-        font-size: 25px;
-        font-weight: bold;
-        color: black;
-    }
-
-    label {
-        display: block;
-        margin-bottom: 8px;
-        font-size: 1em;
-        color: black;
-    }
-
-    button {
-        width: 100%;
-        padding: 12px;
-        background-color: #21177c;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        font-size: 20px;
-        cursor: pointer;
-    }
 }
 
+.grid-formulario legend {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
 
+.grid-formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: black;
+}
 
+.grid-formulario button {
+    width: 100%;
+    padding: 12px;
+    background-color: #21177c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
