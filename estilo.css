@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(23, 12, 31);
+}
+
+.p1 {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.titulo {
+    color: rgb(111, 21, 146);
+    letter-spacing: 4px;
+}
+
+nav {
+    background-color: rgb(65, 61, 73);
+    color: white;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.imagem-buraco {
+    max-width: 80%;
+    height: auto;
+}
+
+.titulo_imagem {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 80px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.planetas-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+
+.imagem{
+    max-width: 90%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.div1 {
+    padding: 20px;
+    background-color: rgb(121, 121, 121);
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px
+}
+
+.t {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.p3 {
+    font-size: 12px
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    background-color: rgb(80, 79, 79);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));;
+    max-width: 100%;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 150px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .p2{
+        color:rgb(0, 0, 0);
+        font-size: 30px;
+    }
+}
+
+
+.grid-formulario {
+    
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    
+
+    legend {
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1em;
+        color: black;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #21177c;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+
+
